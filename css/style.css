@@ -1,0 +1,143 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+.wrapper {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+   
+}
+
+.banner {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 768px;
+}
+
+.desc {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 530px;
+    
+}
+    
+.desc h1 {
+    color: black;
+    font-size: 42px;
+    padding-left: 50px;
+    font-weight: 700;
+}
+.desc p {
+    font-size: 14px;
+    padding-left: 50px ;
+    font-weight: 600;
+}
+
+.option-list {
+    padding-bottom: 15px;
+}
+
+.option-list li {
+    list-style-type: none;
+    padding-left: 16px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.options a {
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 600;
+    padding: 15px 35px;
+    border-radius: 6px;
+    border-color: transparent;
+    
+    margin-left: 50px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 768px;
+    padding-top: 65px;
+}
+
+.footer span {
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.social {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+/* MEDIA QUERY  */
+
+
+@media (min-width: 1440px) {
+    .wrapper {width: 100%; max-width: 1200px; margin: 0 auto;}
+    .navigation{text-align: center;}
+    .container { margin: 0 auto;}
+    .content { display: flex; flex-direction: row-reverse; justify-content: center; align-items: center; gap: 100px;}
+    .banner {width: 100%; max-width:768px;}
+    .banner img { width: 768px; height: 375px;}
+}
+
+
+
+@media (min-width: 640px) {
+
+    .wrapper,.navigation, .banner {width: 100%; max-width: 600px; margin: 0 auto;}
+
+    .desc , .options {
+        width: 100%; max-width: 600px;
+    }
+
+    .banner img {
+        width: 600px;
+    }
+} 
+
+    
+
+@media (min-width: 500px) {
+
+    .wrapper,.navigation, .banner {width: 100%; max-width: 500px; margin: 0 auto;}
+
+    .banner img {
+        width: 476px;
+    }
+
+    .desc , .options {
+        width: 100%; max-width: 500px;
+    }
+
+}
+
+
+
+    
+
+
+
+
+
+
+    
+
+
