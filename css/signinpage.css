@@ -169,6 +169,15 @@ input {
 }
 
 @media(min-width:1200px) {
+
+    body {
+        display: grid;
+        align-items: center;
+       
+        height: 100vh;
+    }
+
+    
     
     .container-fluid {
         display: flex;
@@ -178,7 +187,7 @@ input {
         margin: 0 auto;
         width: 100%;
         max-width: 1200px;
-        max-height: 100%;
+        
         
         
     }
@@ -224,9 +233,13 @@ input {
     
 
     .navbar {
-        /* float: left; */
+        float: left;
         width: 100%;
-        max-width: 626px;
+        max-width: 542px;
+        
+        /* display: flex;
+        justify-content: space-between; */
+        /* max-width: 626px; */
         /* margin: 0 auto; */
         
     }
