@@ -16,6 +16,7 @@
     color: #727272;
 }
 
+
 .navbar-toggler {
     background-color: #f9f6f1;
 }
@@ -257,8 +258,8 @@ input {
         width: 100%;
         max-width: 100px;
         text-align: center;
-        
     }
+        
 }
    
 
