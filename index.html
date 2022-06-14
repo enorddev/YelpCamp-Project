@@ -4,74 +4,201 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Yelp Camp project</title>
+    <title>Add Campground</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
     <link rel="stylesheet" href="css/mdb.min.css"/>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/search.css">
     <script defer src="/js/app.js"></script>
     
   </head>
   <body>
     <div class="wrapper">
-      <div class="container">
-        <div class="navigation">
-          <div class="logo">
-            <a href="index.html"><img src="/img/Assets/Logo.svg" alt="Logo"></a>
-          </div>
-        </div>
-        
         <div class="content">
-          <div class="content-banner">
-            <div class="banner">
-              <img src="/img/Assets/Hero Image (Tablet and Mobile).jpg" alt="Hero Image">
-            </div>
-          </div>
+            <div class="navigation">
+                <nav class="navbar navbar-expand-xxl">
+                    <div class="container">
+                        <a class="navbar-brand me-2" href="index.html"><img src="/img/Assets/Logo.svg"
+                            alt="Logo"/>
+                        </a>
+            
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    
+                        
+                        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                            </ul>
+                            
+                            <div class="d-flex align-items-center">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><strong>johndoe</strong></a>
+                                    </li>
+                                </ul>
 
-          <div class="content-desc">
-            <div class="desc">  
-              <h1>Explore the best camps on earth.</h1>
-              <p>YelpCamp is a curated list of the best camping spots on Earth. unfiltered and 
-                  unbiased reviews.</p>
-            </div>
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="loggedin.html">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="container-content">
+                        <div class="desc">
+                            <h1>Welcome to YelpCamp!</h1>
+                            <p>View our hand-picked campgrounds from all over the world, or add your own.</p>
+                        </div>
     
-            <div class="options">
-              <ul class="option-list">
-                <li><img src="/img/Assets/Checkmark.svg" alt="Checkmark">&nbsp;&nbsp;Add your own camp suggestions.</li>
-                <li><img src="/img/Assets/Checkmark.svg" alt="Checkmark">&nbsp;&nbsp;Leave reviews and experiences</li>
-                <li><img src="/img/Assets/Checkmark.svg" alt="Checkmark">&nbsp;&nbsp;See locations for all camps.</li>
-              </ul>
-              <a href="search.html">View Campgrounds</a>
+                        <div class="search-form">
+                            <div class="form-input">
+                                <div class="input-group rounded">
+                                    <input type="search" class="form-control rounded" placeholder="Search for camps" aria-label="Search" aria-describedby="search-addon"/>
+                                </div>
+                                    
+                                <div class="search-btn">
+                                    <button type="button" class="btn btn-dark" data-mdb-ripple-color="dark">Search</button>
+                                </div>
+                            </div>
+
+                            
+                            <div class="form-link">
+                                <a href="#">Or add your own campground</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards-content">
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Mount Ulap.jpg" class="card-img-top" alt="Moun Ulap"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Mount Ulap</h2>
+                                  <p class="card-text">One of the most famous hikes in Benquet is Mt Ulap in Itolgon.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Calaguas Island.jpg" class="card-img-top" alt="Calaguas Islands"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Calaguas Islands</h2>
+                                  <p class="card-text">A paradise of islands that can rival the white sand beauty of Boracay.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Onay Beach.jpg" class="card-img-top" alt="Onay Beach"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Onay Beach</h2>
+                                  <p class="card-text">This is one of the best beach camping sites, beautiful and pristine.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" class="card-img-top" alt="Seven Sisters Waterfall"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Seven Sisters Waterfall</h2>
+                                  <p class="card-text">The Seven Sisters is the 39th tallest waterfall in Norway.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Latik Riverside.jpg" class="card-img-top" alt="Latik Riverside"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Latik Riverside</h2>
+                                  <p class="card-text">Phillippines is one of the most dazzling countries in all of Asia.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-box">
+                            <div class="card">
+                                <img src="/img/Assets/Camp Images/Compressed Images/Buloy Springs.jpg" class="card-img-top" alt="Buloy Springs"/>
+                                <div class="card-body">
+                                  <h2 class="card-title">Buloy Springs</h2>
+                                  <p class="card-text">This is one of the best beach camping sites, beautiful and pristine.</p>
+                                  <a href="#"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">View Campground</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
             <div class="footer">
-              <span>Partnered with:</span>
-              <div class="social">
-                <a href="#"><img src="/img/Assets/Airbnb.svg" alt="airbnb logo"></a>
-                <a href="#"><img src="/img/Assets/Booking.svg" alt="booking logo"></a>
-                <a href="#"><img src="/img/Assets/Plum Guide.svg" alt="plumguide logo"></a>
-              </div>
+                <img src="/img/Assets/Logo.svg" alt="">
             </div>
-          </div>
         </div>
-
-
-          
-  
-          
-
-        
-
-
-
-
-
-          
-
-
-
-      </div>
     </div>
+
+
+
+
+                        
+    
+                        
+                        
+                        
+    
+                        
+                        
+                        
+    
+                        
+
+                    
+
+                    
+
+                                  
+                                
+
+                    
+
+
+
+         
+                
+
+                            
+                        
+                    
+                    
+                
+                
+            
+
+
+
+
+          
+
+
+
           
 
    
