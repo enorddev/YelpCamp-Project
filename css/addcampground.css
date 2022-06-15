@@ -1,0 +1,191 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.navbar {
+    /* width: 100%; 
+    max-width: 476px;  */
+    margin: 0 auto; 
+    box-shadow: none;
+}
+
+.container-content {
+    padding-bottom: 30px;
+}
+
+.navbar a {
+    color: #727272;
+}
+
+input {
+    width: 100%;
+    max-width: 370px;
+}
+
+.desc {
+    width: 100%;
+    max-width: 400px;
+    padding-top: 20px;
+}
+
+.desc h1 {
+    color: black;
+    font-size: 42px;
+    font-weight: 700;
+   
+}
+
+textarea {
+    resize: none;
+  }
+
+.login-form {
+    padding-top: 20px;
+}
+    
+
+.form-outline {
+    margin-top: 25px;
+}
+    
+.form-control input {
+    width: 100%;
+    max-width: 370px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+    
+
+
+
+.addcamp-btn button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 420px;
+}
+
+
+
+
+
+.container-content, .navigation{
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* MEDIA QUERY */
+
+@media (min-width: 768px) {
+    .navigation {
+        width: 100%; 
+        max-width: 768px; 
+        margin: 0 auto; 
+        box-shadow: none;
+    }
+    
+    .container-content {
+        
+        padding-bottom: 30px;
+    }
+    
+    .navbar a {
+        color: #727272;
+    }
+    
+    /* .form-outline, .login-btn button {
+        width: 100%;
+        max-width: 500px;
+    } */
+
+    
+    .desc {
+        width: 100%;
+        max-width: 768px;
+        padding-top: 20px;
+    }
+
+    .container-fluid, .container-content{
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .footer {
+        width: 100%;
+        max-width: 768px;
+        padding-left: 12px;
+        
+    }
+}
+        
+       
+
+@media(min-width:1200px) {
+
+   
+    .desc {
+        width: 100%;
+        max-width: 768px;
+        padding-top: 20px;
+    }
+    
+    
+    .container-fluid, .container-content{
+        width: 100%;
+        max-width: 768px;
+    }
+    
+
+    
+
+    .desc h1 {
+        font-size: 38px;
+    }
+
+    .addcamp-btn button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 768px;
+    }
+
+   
+    
+    
+
+   
+    
+
+    .navigation , .footer {
+        
+        width: 100%;
+        max-width: 1200px;
+        
+        /* display: flex;
+        justify-content: space-between; */
+        /* max-width: 626px; */
+        /* margin: 0 auto; */
+        
+    }
+        
+        
+        
+        
+}
+    
