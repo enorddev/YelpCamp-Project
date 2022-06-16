@@ -5,6 +5,7 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .navbar {
     /* width: 100%; 
     max-width: 476px;  */
@@ -71,10 +72,6 @@ textarea {
     width: 100%;
     max-width: 420px;
 }
-
-
-
-
 
 .container-content, .navigation{
     width: 100%;
