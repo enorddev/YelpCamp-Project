@@ -1,0 +1,106 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #000000;
+}
+.container-content, .navigation, .testimonial, .map , .footer{
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.container-content,  .testimonial, .map {
+    padding-bottom: 30px;
+    border: thin solid rgb(179, 179, 179);
+    border-radius: 6px;
+}
+
+
+.navbar {
+    /* width: 100%; 
+    max-width: 476px;  */
+    /* margin: 0 auto;  */
+    box-shadow: none;
+}
+
+.navbar a {
+    color: #727272;
+}
+
+.footer {
+    padding-top: 40px;
+}
+    
+.review-btn button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.camp, .testimonial-content {
+   
+    margin: 0 auto;
+    width: 100%;
+    max-width: 330px;
+    
+
+}
+
+.ulap, .map-content {
+    text-align: center;
+    padding-top: 32px;
+    
+}
+
+.testimonial, .map {
+    margin-top: 40px;
+}
+
+.testimonial-content, .map-content {
+    padding-top: 32px;
+}
+
+.title {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.title strong, .user strong {
+    font-size: 22px;
+}
+
+.title span, .user span {
+    font-size: 20px;
+}
+
+.camp-desc {
+    padding-top: 15px;
+}
+
+.camp-desc p, .camp-desc i, .user-quote p{
+    font-size: 20px;
+
+}
+
+.map-content img {
+    width: 330px;
+
+}
+
+
+
+
+
