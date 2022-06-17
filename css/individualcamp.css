@@ -20,11 +20,9 @@
 
 
 .navbar {
-    /* width: 100%; 
-    max-width: 476px;  */
-    /* margin: 0 auto;  */
     box-shadow: none;
 }
+   
 
 .navbar a {
     color: #727272;
@@ -101,6 +99,79 @@
 }
 
 
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        color: #000000;
+        padding-bottom: 50px;
+    }
+
+    .navigation , .footer {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .flex-left {
+        width: 100%;
+        max-width: 800px;
+        
+    }
+
+    .flex-right {
+        width: 100%;
+        max-width: 400px;
+        margin-top: -40px;
+    }
+
+    .container-content , .testimonial {
+        width: 100%;
+        max-width: 700px;
+    }
+
+   .testimonial-content, .camp {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+   }
+
+   .ulap img {
+        width: 650px;
+    } 
+       
+    .container-content,  .testimonial, .map {
+        padding-bottom: 30px;
+        border: thin solid rgb(179, 179, 179);
+        border-radius: 6px;
+    }
+            
+
+
+        
+
+
+    .flex {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        
+    }
+        
+
+    
 
 
 
+
+   
+    
+  
+    
+
+
+}
