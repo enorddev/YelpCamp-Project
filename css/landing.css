@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.navbar {
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    box-shadow: none;
+}
+
+.banner, .links, .desc{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.desc {
+    padding-top: 40px;
+}
+
+.desc, .links {
+    width: 100%;
+    max-width: 420px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.desc h1 {
+    font-weight: 700;
+    color: #000000;
+    font-size: 46px;
+}
+
+.desc p {
+    font-size: 20px;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 500px;
+    height: 375px;
+}
+    
+.desc-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.view-btn {
+    padding-top: 20px;
+}
+.view-btn button {
+
+    width: 100%;
+    max-width: 300px;
+   
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        width: 100%; 
+        max-width: 768px; 
+        margin: 0 auto; 
+        box-shadow: none;
+    }
+
+    .banner, .links, .desc{
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    
+    .desc {
+        padding-top: 40px;
+    }
+
+    .desc, .links {
+        width: 100%;
+        max-width: 688px;
+    }
+    
+    .footer {
+        width: 100%;
+        max-width: 688px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 768px;
+        height: 425px;
+    }
+       
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        width: 100%; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+        box-shadow: none;
+    }
+
+    .banner, .links, .desc{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .desc {
+        padding-top: 40px;
+    }
+
+    .desc, .links {
+        width: 100%;
+        max-width: 1120px;
+    }
+    
+    .footer {
+        width: 100%;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+
+    .banner img {
+        width: 100%;
+        max-width: 768px;
+        height: 50vh;
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+}
