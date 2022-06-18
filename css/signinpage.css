@@ -119,6 +119,21 @@ input {
    
 }
 
+#loader {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    display: none;
+   
+}
+
+
+
+#loader img {
+    width: 120px;
+}
+
 /* MEDIA QUERY */
 
 @media (min-width: 768px) {
@@ -158,6 +173,15 @@ input {
         width: 100%;
         max-width: 768px;
         padding-left: 12px;
+    }
+
+    #loader {
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+        text-align: center;
+        display: none;
+       
     }
 }
         
@@ -237,6 +261,16 @@ input {
         /* max-width: 626px; */
         /* margin: 0 auto; */
         
+    }
+
+    #loader {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        display: none;
+        border: thin solid red;
+       
     }
         
         

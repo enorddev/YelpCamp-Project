@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"/>
     <link rel="stylesheet" href="css/mdb.min.css"/>
     <link rel="stylesheet" href="/css/search.css">
+    <script defer src="/js/search.js"></script>
     
     
   </head>
@@ -62,7 +63,7 @@
                         <div class="search-form">
                             <div class="form-input">
                                 <div class="input-group rounded">
-                                    <input type="search" class="form-control rounded" placeholder="Search for camps" aria-label="Search" aria-describedby="search-addon"/>
+                                    <input type="search" class="form-control rounded" id="search" onkeyup="myfunction()" placeholder="Search for camps" aria-label="Search" aria-describedby="search-addon"/>
                                 </div>
                                     
                                 <div class="search-btn">
